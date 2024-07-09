@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="257.0" prefWidth="485.0" style="-fx-background-color: #00bb2d;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.contador.HelloController">
+  <items>
+    <AnchorPane nodeOrientation="LEFT_TO_RIGHT">
+         <children>
+            <Label id="tf_1" fx:id="tf_1" alignment="CENTER" layoutX="8.0" layoutY="36.0" prefHeight="30.0" prefWidth="234.0" text="Muertes">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font></Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="28.0" prefHeight="37.0" prefWidth="10.0" text=":" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="48.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl_1" alignment="CENTER" contentDisplay="CENTER" layoutX="242.0" layoutY="16.0" prefHeight="75.0" prefWidth="234.0" text="0" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="64.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+         <children>
+            <Label id="tf_2" fx:id="tf_2" alignment="CENTER" layoutX="8.0" layoutY="36.0" prefHeight="30.0" prefWidth="234.0" text="Flexiones">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font></Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="235.0" layoutY="27.0" prefHeight="37.0" prefWidth="10.0" text=":" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="48.0" />
+               </font>
+            </Label>
+            <Label fx:id="lbl_2" alignment="CENTER" contentDisplay="CENTER" layoutX="242.0" layoutY="16.0" prefWidth="234.0" text="0">
+               <font>
+                  <Font name="System Bold" size="64.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+  </items>
+</SplitPane>
